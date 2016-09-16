@@ -3,8 +3,3 @@ node_js:
   - "5"
   - "6"
   - "6.2"
-install:
-  - npm install
-branches:
-  only:
-    - master
