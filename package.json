@@ -1,0 +1,31 @@
+{
+  "name": "country-mapper",
+  "version": "1.0.0",
+  "description": "Map from custom names to ISO 3166",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Laboratory/country-mapper"
+  },
+  "keywords": [
+    "country",
+    "mapper",
+    "scoringbar"
+  ],
+  "author": "Vitaly Nikitin (vit.nikitin@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laboratory/country-mapper/issues"
+  },
+  "homepage": "https://github.com/Laboratory/country-mapper",
+  "dependencies": {
+    "country-data": "0.0.29"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
