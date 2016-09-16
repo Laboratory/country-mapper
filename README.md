@@ -1,4 +1,7 @@
 # country-mapper
 [![Build Status](https://travis-ci.org/Laboratory/country-mapper.svg?branch=master)](https://travis-ci.org/Laboratory/country-mapper)
 
-Map from custom names to ISO 3166
+Country naming approach might be very unique from org to org. The reason for that is that decision makers do not pay much attention to existing industry standards while just stop on the nice looking names, which will lead to errors when different systems should talk to each other. We notice that country should have aligned with ISO 3166 name. To not have you to change your way, we offer you to introduce a country mapping as below:
+
+	Sint Eustatius -> Bonaire, Saint Eustatius And Saba
+	Bonaire -> Bonaire, Saint Eustatius And Saba
