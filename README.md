@@ -5,3 +5,13 @@ Country naming approach might be very unique from org to org. The reason for tha
 
 	Sint Eustatius -> Bonaire, Saint Eustatius And Saba
 	Bonaire -> Bonaire, Saint Eustatius And Saba
+
+## Installation
+
+Via [npm](https://www.npmjs.com/package/country-mapper):
+
+    npm install country-mapper
+
+## License
+
+Formidable is licensed under the MIT license.
