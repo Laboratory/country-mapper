@@ -21,4 +21,10 @@ describe('Codes', function () {
             assert.equal(null, checkCodes.convert('Unknown'));
         });
     });
+
+    describe('abbreviation', function () {
+        it('should convert from abbreviation of Country to specific code', function () {
+            assert.equal('US', checkCodes.convert('USA'));
+        });
+    });
 });

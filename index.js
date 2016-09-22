@@ -22,7 +22,7 @@ var convert = function (countryName) {
             res = lookup.countries({
                 name: dict[countryName]
             });
-            if (res) break;
+            if (res.length > 0) break;
         }
     }
     return (res[0] || {}).alpha2;
