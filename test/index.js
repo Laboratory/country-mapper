@@ -27,4 +27,12 @@ describe('Codes', function () {
             assert.equal('US', checkCodes.convert('USA'));
         });
     });
+
+    describe('abbreviation for UK', function () {
+        it('should convert from abbreviation of UK code', function () {
+            assert.equal('GB', checkCodes.convert('UK'));
+            assert.equal('GB', checkCodes.convert('U.K.'));
+            assert.equal('GB', checkCodes.convert('U.K'));
+        });
+    });
 });
