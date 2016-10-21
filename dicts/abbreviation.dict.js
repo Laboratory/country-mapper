@@ -8,7 +8,28 @@ var abbreviationDict = {
     'Great Britain': 'United Kingdom',
     'Great Brittan': 'United Kingdom',
     'GB': 'United Kingdom',
-    'GGY': 'United Kingdom'
+    'GGY': 'United Kingdom',
+    'Russia': 'Russian Federation',
+    'Tanzania': 'Tanzania, United Republic Of',
+    'Congo (Dem. Rep.)': 'Democratic Republic Of Congo',
+    'Congo Dem. Rep.': 'Democratic Republic Of Congo',
+    'Congo (Rep.)': 'Republic Of Congo',
+    'Congo Rep.': 'Republic Of Congo',
+    'Sao Tome & Principe': 'Sao Tome and Principe',
+    'Guinea Bissau': 'Guinea-bissau',
+    'Korea (South)': 'Korea, Democratic People\'s Republic Of',
+    'Korea South': 'Korea, Democratic People\'s Republic Of',
+    'Korea (North)': 'Korea, Republic Of',
+    'Korea North': 'Korea, Republic Of',
+    'Syria': 'Syrian Arab Republic',
+    'Brunei': 'Brunei Darussalam',
+    'Laos': 'Lao People\'s Democratic Republic',
+    'Iran': 'Iran, Islamic Republic Of',
+    'Lucia': 'Saint Lucia',
+    'Antigua & Barbuda': 'Antigua And Barbuda',
+    'St Kitts & Nevis': 'Saint Kitts And Nevis',
+    'Samoa (American)': 'American Samoa',
+    'Samoa (western)': 'Samoa'
 };
 
 module.exports = abbreviationDict;

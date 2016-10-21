@@ -12,6 +12,16 @@ Via [npm](https://www.npmjs.com/package/country-mapper):
 
     npm install country-mapper
 
+### Usage
+-----
+
+```javascript
+  var mapper = require('county-mapper');
+  mapper.convert('Russian Federation'); // RU
+  mapper.convert('Russia'); // RU
+```
+
+
 ## License
 
 Formidable is licensed under the MIT license.
