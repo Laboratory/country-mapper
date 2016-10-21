@@ -26,10 +26,12 @@ var abbreviationDict = {
     'Laos': 'Lao People\'s Democratic Republic',
     'Iran': 'Iran, Islamic Republic Of',
     'Lucia': 'Saint Lucia',
+    'St Lucia': 'Saint Lucia',
     'Antigua & Barbuda': 'Antigua And Barbuda',
     'St Kitts & Nevis': 'Saint Kitts And Nevis',
     'Samoa (American)': 'American Samoa',
-    'Samoa (western)': 'Samoa'
+    'Samoa (western)': 'Samoa',
+    'Cote d\'Ivoire': 'Côte d\'Ivoire'
 };
 
 module.exports = abbreviationDict;

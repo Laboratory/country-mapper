@@ -38,10 +38,12 @@ describe('Codes', function () {
             assert.equal('LA', checkCodes.convert('Laos'));
             assert.equal('IR', checkCodes.convert('Iran'));
             assert.equal('LC', checkCodes.convert('Lucia'));
+            assert.equal('LC', checkCodes.convert('St Lucia'));
             assert.equal('AG', checkCodes.convert('Antigua & Barbuda'));
             assert.equal('KN', checkCodes.convert('St Kitts & Nevis'));
             assert.equal('AS', checkCodes.convert('Samoa (American)'));
             assert.equal('WS', checkCodes.convert('Samoa (western)'));
+            assert.equal('CI', checkCodes.convert('Cote d\'Ivoire'));
         });
     });
 
