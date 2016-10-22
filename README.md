@@ -21,6 +21,11 @@ Via [npm](https://www.npmjs.com/package/country-mapper):
   mapper.convert('Russia'); // RU
 ```
 
+```javascript
+  var mapper = require('county-mapper');
+  mapper.iso('Russia'); // Russian Federation
+```
+
 
 ## License
 

@@ -13,21 +13,32 @@ fs.readdirSync(normalizedPath).forEach(function (file) {
 });
 
 var convert = function (countryName) {
-    var res = lookup.countries({
+    var country = getCountry(countryName);
+    return (country || {}).alpha2 || null;
+};
+
+var getCountry = function (countryName) {
+    var countries = lookup.countries({
         name: countryName
     });
-    if (res.length === 0) {
+    if (countries.length === 0) {
         for (var i = 0; i < dicts.length; i++) {
             var dict = dicts[i];
-            res = lookup.countries({
+            countries = lookup.countries({
                 name: dict[countryName]
             });
-            if (res.length > 0) break;
+            if (countries.length > 0) break;
         }
     }
-    return (res[0] || {}).alpha2;
+    return countries[0] || null;
+};
+
+var iso = function (countryName) {
+    var country = getCountry(countryName) || {};
+    return (country.name || null);
 };
 
 module.exports = {
-    convert: convert
+    convert: convert,
+    iso: iso
 };

@@ -31,7 +31,26 @@ var abbreviationDict = {
     'St Kitts & Nevis': 'Saint Kitts And Nevis',
     'Samoa (American)': 'American Samoa',
     'Samoa (western)': 'Samoa',
-    'Cote d\'Ivoire': 'Côte d\'Ivoire'
+    'Cote d\'Ivoire': 'Côte d\'Ivoire',
+    'Antigua and Barbuda': 'Antigua And Barbuda',
+    'Bosnia and Herzegovina': 'Bosnia & Herzegovina',
+    'Cocos Islands': 'Cocos (Keeling) Islands',
+    'Democratic Republic of the Congo': 'Democratic Republic Of Congo',
+    'Isle of Man': 'Isle Of Man',
+    'Ivory Coast': 'Côte d\'Ivoire',
+    'Micronesia': 'Micronesia, Federated States Of',
+    'North Korea': 'Korea, Republic Of',
+    'Republic of the Congo': 'Republic Of Congo',
+    'Saint Helena': 'Saint Helena, Ascension And Tristan Da Cunha',
+    'Saint Pierre and Miquelon': 'Saint Pierre And Miquelon',
+    'Saint Vincent and the Grenadines': 'Saint Vincent And The Grenadines',
+    'South Korea': 'Korea, Democratic People\'s Republic Of',
+    'Svalbard and Jan Mayen': 'Svalbard And Jan Mayen',
+    'Trinidad and Tobago': 'Trinidad And Tobago',
+    'Turks and Caicos Islands': 'Turks And Caicos Islands',
+    'U.S. Virgin Islands': 'Virgin Islands (US)',
+    'Vatican': 'Vatican City State',
+    'Wallis and Futuna': 'Wallis And Futuna'
 };
 
 module.exports = abbreviationDict;
