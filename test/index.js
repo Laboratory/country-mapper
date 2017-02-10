@@ -26,6 +26,7 @@ describe('Codes', function () {
     describe('abbreviation', function () {
         it('should convert from abbreviation of Country to specific code', function () {
             assert.equal('US', checkCodes.convert('USA'));
+            assert.equal('US', checkCodes.convert('UNITED STATES'));
             assert.equal('RU', checkCodes.convert('Russia'));
             assert.equal('TZ', checkCodes.convert('Tanzania'));
             assert.equal('CD', checkCodes.convert('Congo (Dem. Rep.)'));
