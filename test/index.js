@@ -33,8 +33,8 @@ describe('Codes', function () {
             assert.equal('CG', checkCodes.convert('Congo (Rep.)'));
             assert.equal('ST', checkCodes.convert('Sao Tome & Principe'));
             assert.equal('GW', checkCodes.convert('Guinea Bissau'));
-            assert.equal('KP', checkCodes.convert('Korea (South)'));
-            assert.equal('KR', checkCodes.convert('Korea (North)'));
+            assert.equal('KR', checkCodes.convert('Korea (South)'));
+            assert.equal('KP', checkCodes.convert('Korea (North)'));
             assert.equal('SY', checkCodes.convert('Syria'));
             assert.equal('BN', checkCodes.convert('Brunei'));
             assert.equal('LA', checkCodes.convert('Laos'));
