@@ -26,7 +26,7 @@ var getCountry = function (countryName) {
     //try to find country without case insensitive
     if (countries.length === 0) {
         _country = _.find(allCountries, function (item) {
-            if (item.name.toLowerCase() == countryName.toLowerCase()) {
+            if (item && item.name && item.name.toLowerCase() == countryName.toLowerCase()) {
                 return item.name;
             }
         });
