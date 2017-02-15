@@ -24,7 +24,7 @@ var getCountry = function (countryName) {
         name: countryName
     });
     //try to find country without case insensitive
-    if (countries.length === 0) {
+    if (countries.length === 0 && countryName) {
         _country = _.find(allCountries, function (item) {
             if (item && item.name && item.name.toLowerCase() == countryName.toLowerCase()) {
                 return item.name;
@@ -35,7 +35,7 @@ var getCountry = function (countryName) {
         }
     }
     //try to find country inside dicts
-    if (countries.length === 0) {
+    if (countries.length === 0 && countryName) {
         for (var i = 0; i < dicts.length; i++) {
             var dict = dicts[i];
             countries = lookup.countries({

@@ -20,6 +20,8 @@ describe('Codes', function () {
         });
         it('should return null for unknown country', function () {
             assert.equal(null, checkCodes.convert('Unknown'));
+            assert.equal(null, checkCodes.convert(null));
+            assert.equal(null, checkCodes.convert(undefined));
         });
     });
 
