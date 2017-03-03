@@ -50,7 +50,10 @@ var abbreviationDict = {
     'Turks and Caicos Islands': 'Turks And Caicos Islands',
     'U.S. Virgin Islands': 'Virgin Islands (US)',
     'Vatican': 'Vatican City State',
-    'Wallis and Futuna': 'Wallis And Futuna'
+    'Wallis and Futuna': 'Wallis And Futuna',
+    'Republic of Macedonia': 'Macedonia, The Former Yugoslav Republic Of',
+    'Macedonia': 'Macedonia, The Former Yugoslav Republic Of',
+    'Jan Mayen': 'Svalbard And Jan Mayen'
 };
 
 module.exports = abbreviationDict;

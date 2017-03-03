@@ -16,7 +16,10 @@ describe('Codes', function () {
     describe('converter', function () {
         it('should convert from Country to specific code', function () {
             assert.equal('RU', checkCodes.convert('Russian Federation'));
+            assert.equal('MK', checkCodes.convert('Republic of Macedonia'));
+            assert.equal('MK', checkCodes.convert('Macedonia'));
             assert.equal('CD', checkCodes.convert('Congo, The Democratic Republic of'));
+            assert.equal('SJ', checkCodes.convert('Jan Mayen'));
         });
         it('should return null for unknown country', function () {
             assert.equal(null, checkCodes.convert('Unknown'));
