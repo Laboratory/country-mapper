@@ -23,10 +23,12 @@
   "homepage": "https://github.com/Laboratory/country-mapper",
   "dependencies": {
     "country-data": "0.0.31",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "standard": "*"
   }
 }
