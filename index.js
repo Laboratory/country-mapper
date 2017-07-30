@@ -25,7 +25,7 @@ const getCountry = (countryName) => {
   })
   // try to find country without case insensitive
   if (countries.length === 0 && countryName) {
-    let _country = _.find(allCountries, function (item) {
+    let _country = _.find(allCountries, (item) => {
       if (item && item.name && item.name.toLowerCase() === countryName.toLowerCase()) {
         return item.name
       }
@@ -36,15 +36,25 @@ const getCountry = (countryName) => {
   }
   // try to find country inside dicts
   if (countries.length === 0 && countryName) {
-    for (let i = 0; i < dicts.length; i++) {
-      let dict = dicts[i]
-      countries = lookup.countries({
-        name: dict[countryName]
-      })
-      if (countries.length > 0) break
-    }
+    const cName = findCaseInsensitive(countryName)
+    countries = lookup.countries({
+      name: cName
+    })
   }
   return countries[0] || null
+}
+
+const findCaseInsensitive = (countryName) => {
+  for (let i = 0; i < dicts.length; i++) {
+    let dict = dicts[i]
+    const countries = Object.keys(dict)
+    for (let j = 0; j < countries.length; ++j) {
+      const name = countries[j]
+      if (name === countryName || name.toLowerCase() === countryName.toLowerCase()) {
+        return dict[name]
+      }
+    }
+  }
 }
 
 const iso = (countryName) => {
