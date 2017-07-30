@@ -1,6 +1,6 @@
 {
   "name": "country-mapper",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Map from custom names to ISO 3166",
   "main": "index.js",
   "scripts": {
@@ -23,12 +23,11 @@
   "homepage": "https://github.com/Laboratory/country-mapper",
   "dependencies": {
     "country-data": "0.0.31",
-    "lodash": "^4.17.4",
-    "mocha": "^3.4.1"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.0.2",
+    "chai": "^4.1.0",
+    "mocha": "^4.1.0",
     "standard": "*"
   }
 }
