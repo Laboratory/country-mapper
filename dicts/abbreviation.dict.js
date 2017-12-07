@@ -1,5 +1,6 @@
 var abbreviationDict = {
   'USA': 'United States',
+  'US': 'United States',
   'England': 'United Kingdom',
   'U.K.': 'United Kingdom',
   'UK': 'United Kingdom',
