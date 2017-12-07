@@ -36,6 +36,7 @@ mocha.describe('Codes', () => {
   mocha.describe('abbreviation', () => {
     mocha.it('should convert from abbreviation of Country to specific code', () => {
       assert.equal('US', checkCodes.convert('USA'))
+      assert.equal('US', checkCodes.convert('United States of America'))
       assert.equal('US', checkCodes.convert('UNITED STATES'))
       assert.equal('RU', checkCodes.convert('Russia'))
       assert.equal('TZ', checkCodes.convert('Tanzania'))

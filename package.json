@@ -1,6 +1,6 @@
 {
   "name": "country-mapper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Map from custom names to ISO 3166",
   "main": "index.js",
   "scripts": {
