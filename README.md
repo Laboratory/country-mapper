@@ -16,13 +16,13 @@ Via [npm](https://www.npmjs.com/package/country-mapper):
 -----
 
 ```javascript
-  var mapper = require('county-mapper');
+  var mapper = require('country-mapper');
   mapper.convert('Russian Federation'); // RU
   mapper.convert('Russia'); // RU
 ```
 
 ```javascript
-  var mapper = require('county-mapper');
+  var mapper = require('country-mapper');
   mapper.iso('Russia'); // Russian Federation
 ```
 
